@@ -1,0 +1,8 @@
+  server:
+    image: klakegg/hugo:alpine
+    command: server
+    volumes:
+      - ./site:/src
+      - ./site/public:/target
+    ports:
+      - 1313:1313
