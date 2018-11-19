@@ -17,11 +17,8 @@ Generated color palette from [paletton.com](http://paletton.com/) stored in `pal
 * `ssc.png` - static PNG generated
 * `ssc.scss` - SASS variables
 
-## Generate CSS
-
 Use paletton generated SASS:
 ```bash
-cp palette/ssc.sass site/themes/hugo-now-ui/static/sass/_ssc.scss
-cd site/themes/hugo-now-ui/static
-sass sass/now-ui-kit.scss css/now-ui-kit.css
+cp palette/ssc.sass site/themes/hugo-now-ui/assets/sass/_ssc.scss
 ```
+
