@@ -1,6 +1,6 @@
   server:
     image: klakegg/hugo:ext-alpine
-    command: server
+    command: server -v
     volumes:
       - ./site:/src
       - ./public:/target
